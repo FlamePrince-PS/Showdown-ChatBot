@@ -34,3 +34,10 @@ Config.MYSQL.user = "0wx6QxltDu";
 Config.MYSQL.password = "xzPmx79eXU";
 
 Config.MYSQL.database = "0wx6QxltDu";
+
+/*********
+* Ping Server Once Every X Minutes
+********/
+const http = require("http");
+setInterval(function() {     http.get("http://princeskybot.herokuapp.com");
+}, 180000); // every 3mins.
