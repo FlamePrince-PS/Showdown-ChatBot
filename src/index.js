@@ -10,6 +10,7 @@
 
 const Path = require('path');
 
+cont test = test;
 /* Tools manager */
 
 const ToolsManager = require(Path.resolve(__dirname, 'tools.js'));
