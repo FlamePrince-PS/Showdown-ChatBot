@@ -28,7 +28,7 @@ function setup(env) {
 
 	let logsDir = Path.resolve(__dirname, '../logs/');
 	let confDir = Path.resolve(__dirname, '../config/');
-	let dataDir = Path.resolve(__dirname, '../data/');
+	let dataDir = Path.resolve(__dirname, '../data/');xkdkdkkdkdkd
 
 	if (env && env.dir !== undefined) {
 		try {
